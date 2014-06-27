@@ -21,27 +21,23 @@ http://localhost/test/symfony/web/app.php/hello/anibal
 
 SANDBOX
 ============================
-
 # console : app/console
------------------------------------
-:::::: bundle
------------------------------------
-# 01 crear
+
+:::::: bundle crear
+#01
 app/console generate:bundle
 php app/console generate:bundle --namespace=Acme/Bundle/BlogBundle
 
------------------------------------
 :::::: Doctrine
------------------------------------
-# Doctrine 01
+#01
 php app/console doctrine:database:create
 
-# 02
+#02
 php app/console doctrine:database:drop --force
 php app/console doctrine:database:create
 
-# 03
+#03
 php app/console doctrine:generate:entity
 
-# 04 (create tables model schema)
+#04 (create tables model schema)
 php app/console doctrine:schema:update --force

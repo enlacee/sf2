@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="539b15c2-faaa-4cf7-90ed-ed1d9f9ac87e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md.sf2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="symfony.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -324,7 +322,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="0" selection-end="1151" vertical-scroll-proportion="0.4084507" vertical-offset="55" max-vertical-offset="780">
+        <state line="35" column="46" selection-start="825" selection-end="825" vertical-scroll-proportion="0.7253521" vertical-offset="10" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
