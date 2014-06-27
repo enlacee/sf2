@@ -34,3 +34,8 @@ assetic:
 
 #swiftmailer:
 #    delivery_address: me@example.com
+
+jns_xhprof:
+    # location_web:    http://symfony.local
+    location_web:    http://localhost/test/symfony/vendor/facebook/xhprof/xhprof_html
+    enabled:         truelocation_web:    
