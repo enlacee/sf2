@@ -41,24 +41,3 @@ php app/console doctrine:generate:entity
 
 #04 (create tables model schema)
 php app/console doctrine:schema:update --force
-
-
-
-<VirtualHost *:80>
-    ServerName www.domain.com.localhost
-    ServerAlias domain.com.localhost
-    ServerAdmin webmaster@localhost
-
-    DocumentRoot /home/user/www/project/web
-    <Directory /home/user/www/project/web/>
-        Options Indexes FollowSymLinks MultiViews
-        AllowOverride None
-        Order allow,deny
-        allow from all
-        <IfModule mod_rewrite.c>
-            RewriteEngine On
-            RewriteCond %{REQUEST_FILENAME} !-f
-            RewriteRule ^(.*)$ /app.php [QSA,L]
-        </IfModule>
-    </Directory>
-</VirtualHost>

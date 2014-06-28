@@ -7,3 +7,7 @@ acme_blog_create:
 acme_blog_get:
     path:     /get/{id}
     defaults: { _controller: AcmeBlogBundle:Default:show }
+# index
+acme_blog_index_form:
+    path:     /index/form
+    defaults: { _controller: AcmeBlogBundle:Index:form }
